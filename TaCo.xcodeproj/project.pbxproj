@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12A35D02218C7DBF005CFE2C /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A35D01218C7DBF005CFE2C /* Provider.swift */; };
+		12A35D04218F20B5005CFE2C /* ProviderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A35D03218F20B5005CFE2C /* ProviderTableViewCell.swift */; };
 		1BBABAE2218C2BA900597E12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBABAE1218C2BA900597E12 /* AppDelegate.swift */; };
 		1BBABAE4218C2BA900597E12 /* InterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBABAE3218C2BA900597E12 /* InterestsViewController.swift */; };
 		1BBABAE9218C2BA900597E12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BBABAE7218C2BA900597E12 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12A35D01218C7DBF005CFE2C /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		12A35D03218F20B5005CFE2C /* ProviderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderTableViewCell.swift; sourceTree = "<group>"; };
 		1BBABADE218C2BA900597E12 /* TaCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BBABAE1218C2BA900597E12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BBABAE3218C2BA900597E12 /* InterestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestsViewController.swift; sourceTree = "<group>"; };
@@ -59,9 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				1BBABAE1218C2BA900597E12 /* AppDelegate.swift */,
+				12A35D01218C7DBF005CFE2C /* Provider.swift */,
 				1BBABAE3218C2BA900597E12 /* InterestsViewController.swift */,
 				1BBABAF5218C31F600597E12 /* ProviderListingViewController.swift */,
 				1BBABAE7218C2BA900597E12 /* Main.storyboard */,
+				12A35D03218F20B5005CFE2C /* ProviderTableViewCell.swift */,
 				1BBABAF7218C320300597E12 /* ProfileViewController.swift */,
 				1BBABAEA218C2BAB00597E12 /* Assets.xcassets */,
 				1BBABAEC218C2BAB00597E12 /* LaunchScreen.storyboard */,
@@ -144,6 +150,8 @@
 				1BBABAE2218C2BA900597E12 /* AppDelegate.swift in Sources */,
 				1BBABAE4218C2BA900597E12 /* InterestsViewController.swift in Sources */,
 				1BBABAF8218C320300597E12 /* ProfileViewController.swift in Sources */,
+				12A35D02218C7DBF005CFE2C /* Provider.swift in Sources */,
+				12A35D04218F20B5005CFE2C /* ProviderTableViewCell.swift in Sources */,
 				1BBABAF6218C31F600597E12 /* ProviderListingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
