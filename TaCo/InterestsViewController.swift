@@ -8,7 +8,17 @@
 
 import UIKit
 
-class InterestsViewController: UIViewController {
+class InterestsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "call", for: indexPath )
+        cell.textLabel!.text = "Subject 1"
+        return cell
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
