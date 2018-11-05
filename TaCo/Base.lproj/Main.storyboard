@@ -21,6 +21,10 @@
                                 <rect key="frame" x="0.0" y="89" width="414" height="773"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="4MR-eg-8Uw" id="reQ-dL-qhf"/>
+                                    <outlet property="delegate" destination="4MR-eg-8Uw" id="wPt-yz-uB3"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
