@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="D8S-1z-UGw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="D8S-1z-UGw">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -163,6 +163,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="clA-E7-hNc"/>
                     </view>
+                    <connections>
+                        <outlet property="imageProfile" destination="Cv4-xd-3bx" id="lhg-Lv-pbh"/>
+                        <outlet property="labelContactDetails" destination="jrq-CU-yBt" id="D6U-iI-MmV"/>
+                        <outlet property="labelFreeTimes" destination="Ezf-jD-tkf" id="IBo-0A-pTc"/>
+                        <outlet property="labelName" destination="1pg-ZG-ke7" id="g2b-Yg-28R"/>
+                        <outlet property="labelQualifications" destination="vCL-Dz-Rfc" id="Eg6-Yh-e3A"/>
+                        <outlet property="labelSpecialties" destination="NY5-3D-F1i" id="DpQ-8F-EcG"/>
+                        <outlet property="labelStarRating" destination="e98-Ok-EST" id="hbK-tm-RSR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tSA-C5-aKI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

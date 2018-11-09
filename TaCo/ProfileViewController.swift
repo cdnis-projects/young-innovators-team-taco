@@ -10,6 +10,18 @@ import UIKit
 
 class ProfileViewController: UIViewController {
 
+    
+    
+    @IBOutlet weak var labelName: UILabel!
+    @IBOutlet weak var labelStarRating: UILabel!
+    @IBOutlet weak var labelContactDetails: UILabel!
+    @IBOutlet weak var labelFreeTimes: UILabel!
+    @IBOutlet weak var labelSpecialties: UILabel!
+    @IBOutlet weak var labelQualifications: UILabel!
+    @IBOutlet weak var imageProfile: UIImageView!
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
