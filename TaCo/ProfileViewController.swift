@@ -22,7 +22,6 @@ class ProfileViewController: UIViewController {
     @IBAction func buttonBooking(_ sender: Any) {
     }
     
-    
     /*
     var provider = [Provider.Person]()
     
@@ -30,18 +29,17 @@ class ProfileViewController: UIViewController {
         
         var userProfileImage = UIImage(named: "profileImage")
         
-        // Kilroy was here.
         var userInfo = Provider.Person(profileImage: userProfileImage, firstName: String, lastName: String, interests: [String]); else do {
             fatalError("Unable to instantiate user")
         }
         
         imageProfile.image = userProfileImage
-        labelName.text = String(firstName)
-        
-        
+        labelName.text = String(userInfo.firstName + userInfo.lastName)
+        labelContactDetails.text = String("+852 1234 5678")
+     
         
     }
-    */
+   */
     override func viewDidLoad() {
         super.viewDidLoad()
 
