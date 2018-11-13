@@ -8,7 +8,27 @@
 
 import UIKit
 
-class InterestsViewController: UIViewController {
+var subjects = ["Math", "Science", "English", "Music", "History"]
+
+var row = 0
+
+class InterestsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return subjects.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        
+        cell.textLabel?.text = subjects[indexPath.row]
+        
+        return cell 
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        row = indexPath.row
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
