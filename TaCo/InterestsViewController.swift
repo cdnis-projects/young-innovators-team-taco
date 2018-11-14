@@ -8,7 +8,7 @@
 
 import UIKit
 
-var subjects = ["Math", "Science", "English", "Music", "History"]
+var subjects = ["Math", "Science", "Mandarin", "Xcode", "C+", "Poster Design", "Logo Design", "Aerial Photography", "Child Care", "3D Printing", "Web Design"]
 
 var row = 0
 
