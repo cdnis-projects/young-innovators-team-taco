@@ -52,6 +52,7 @@ class ProviderListingViewController: UIViewController, UITableViewDelegate, UITa
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel!.text = providers[indexPath.row].firstName
+        cell.imageView!.image = providers[indexPath.row].profileImage
         return cell
     }
     
