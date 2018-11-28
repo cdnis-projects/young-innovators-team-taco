@@ -8,7 +8,9 @@
 
 import UIKit
 
-var subjects = ["Math", "Science", "Mandarin", "Xcode", "C+", "Poster Design", "Logo Design", "Aerial Photography", "Child Care", "3D Printing", "Web Design"]
+var subjects = ["Math", "Science", "Mandarin", "Xcode", "C++", "Poster Design", "Logo Design", "Aerial Photography", "Child Care", "3D Printing", "Web Design"]
+
+// Swift, Drone Flying, VR, 3D Printing, Laser Cutting
 
 
 var subjectImages: [UIImage] = [
@@ -16,7 +18,7 @@ var subjectImages: [UIImage] = [
     UIImage(named: "Science-Asset")!,
     UIImage(named: "Chinese-Asset")!,
     UIImage(named: "Xcode-Asset")!,
-    UIImage(named: "C+-Asset")!,
+    UIImage(named: "C++-Asset")!,
     UIImage(named: "Poster-Asset")!,
     UIImage(named: "LogoDesign-Asset")!,
     UIImage(named: "Aerial-Asset")!,
