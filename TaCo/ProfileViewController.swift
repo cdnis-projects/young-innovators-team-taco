@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class ProfileViewController: UIViewController {
 
@@ -22,9 +23,8 @@ class ProfileViewController: UIViewController {
     @IBAction func buttonBooking(_ sender: Any) {
     }
     var provider: ProviderListingViewController?
-    var profileImage = provider.profileImage
-    var firstName = provider.firstName
-    var
+//    var profileImage = provider.profileImage
+//    var firstName = provider.firstName
     
     /*
     var provider = [Provider.Person]()

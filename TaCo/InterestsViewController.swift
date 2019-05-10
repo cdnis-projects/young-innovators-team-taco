@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 var subjects = ["Math", "Science", "Mandarin", "Xcode", "C++", "Poster Design", "Logo Design", "Aerial Photography", "Child Care", "3D Printing", "Web Design"]
 

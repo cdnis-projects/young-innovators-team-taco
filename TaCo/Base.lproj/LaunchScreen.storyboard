@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TaCo Logo" translatesAutoresizingMaskIntoConstraints="NO" id="KEd-sG-PBx">
-                                <rect key="frame" x="-217" y="247" width="848" height="402"/>
+                                <rect key="frame" x="-178" y="266" width="770" height="365"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0078431372549019607" green="0.87450980392156863" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>

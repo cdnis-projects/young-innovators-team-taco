@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>54718949520-k6rh8vubght2finboknfg0qbh3lu242h.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.54718949520-k6rh8vubght2finboknfg0qbh3lu242h</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA04EPIvzNVUxuhh-6msLhqvOnP0cwOMzg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>54718949520</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>cdnis.edu.hk.TaCo</string>
+	<key>PROJECT_ID</key>
+	<string>taco-83c94</string>
+	<key>STORAGE_BUCKET</key>
+	<string>taco-83c94.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:54718949520:ios:0e380c757de06f4f</string>
+	<key>DATABASE_URL</key>
+	<string>https://taco-83c94.firebaseio.com</string>
+</dict>
+</plist>
