@@ -34,8 +34,9 @@ class SignUpViewController: UIViewController {
         } else {
             Auth.auth().createUser(withEmail: email, password: password)
             print("Created new user!")
-            let segueViewController = InterestsViewController()
-            self.present(segueViewController, animated: true, completion: nil)
+            self.performSegue(withIdentifier: "SignUpToHome", sender: self)
+//            let segueViewController = InterestsViewController()
+//            self.present(segueViewController, animated: true, completion: nil)
         }
     }
     

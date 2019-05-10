@@ -67,6 +67,7 @@
                     <connections>
                         <outlet property="textFieldEmail" destination="M6H-3N-coK" id="d6M-e9-qhE"/>
                         <outlet property="textFieldPassword" destination="fG1-yZ-o3r" id="iP8-dj-74D"/>
+                        <segue destination="ilW-kf-7FL" kind="show" identifier="LogintoHome" id="6Gc-il-ZLg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pLA-iw-hA0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -113,6 +114,9 @@
                         <color key="backgroundColor" red="0.34901960780000002" green="0.60392156860000001" blue="0.85490196080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="mye-Zl-uKx"/>
                     </view>
+                    <connections>
+                        <segue destination="ilW-kf-7FL" kind="show" identifier="LaunchToMenu" id="MC9-Mn-C8r"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1mb-1m-TSw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -192,6 +196,7 @@
                         <outlet property="textFieldEmail" destination="Dx3-cR-cHY" id="hmf-FE-7eL"/>
                         <outlet property="textFieldName" destination="2pI-Yb-qnm" id="6VZ-fL-JfN"/>
                         <outlet property="textFieldPassword" destination="Y3U-XC-4Mf" id="i7W-QY-GsA"/>
+                        <segue destination="ilW-kf-7FL" kind="show" identifier="SignUpToHome" id="ci6-Hg-fEU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oMF-T2-hkX" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -462,5 +467,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="v5c-pd-3J3"/>
+        <segue reference="MC9-Mn-C8r"/>
     </inferredMetricsTieBreakers>
 </document>

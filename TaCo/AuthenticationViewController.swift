@@ -28,8 +28,9 @@ class AuthenticationViewController: UIViewController {
             self.present(alertFields, animated: true)
         } else {
             Auth.auth().signIn(withEmail: email, password: password)
-            let segueViewController = InterestsViewController()
-            self.present(segueViewController, animated: true, completion: nil)
+            self.performSegue(withIdentifier: "LoginToHome", sender: self)
+//            let segueTo = InterestsViewController()
+//            self.present(segueTo, animated: true, completion: nil)
         }
     }
     
