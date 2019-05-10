@@ -1,5 +1,5 @@
 //
-//  AuthenticationViewController.swift
+//  SignUpViewController.swift
 //  TaCo
 //
 //  Created by Thomas Ng on 10/5/2019.
@@ -10,24 +10,30 @@ import UIKit
 import Firebase
 import FirebaseAuth
 
-class AuthenticationViewController: UIViewController {
-    
+class SignUpViewController: UIViewController {
+
+    @IBOutlet weak var textFieldName: UITextField!
     @IBOutlet weak var textFieldEmail: UITextField!
     @IBOutlet weak var textFieldPassword: UITextField!
-    @IBAction func buttonSignIn(_ sender: Any) {
+    
+    @IBAction func buttonSignUp(_ sender: Any) {
+        guard let name = textFieldName.text else {
+            fatalError("Cannot find user's name.")
+        }
         guard let email = textFieldEmail.text else {
             fatalError("Cannot find user email.")
         }
         guard let password = textFieldPassword.text else {
             fatalError("Cannot find user password.")
         }
-        if email == "" || password == "" {
+        if name == "" || email == "" || password == "" {
             let alertFields = UIAlertController(title: "Please Enter All Fields", message: "You need to enter both your email and your password.", preferredStyle: .alert)
             let actionOK = UIAlertAction(title: "OK", style: .default, handler: nil)
             alertFields.addAction(actionOK)
             self.present(alertFields, animated: true)
         } else {
-            Auth.auth().signIn(withEmail: email, password: password)
+            Auth.auth().createUser(withEmail: email, password: password)
+            print("Created new user!")
             let segueViewController = InterestsViewController()
             self.present(segueViewController, animated: true, completion: nil)
         }
@@ -35,6 +41,7 @@ class AuthenticationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
     
