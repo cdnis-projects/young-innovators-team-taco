@@ -21,6 +21,10 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var imageProfile: UIImageView!
     @IBAction func buttonBooking(_ sender: Any) {
     }
+    var provider: ProviderListingViewController?
+    var profileImage = provider.profileImage
+    var firstName = provider.firstName
+    var
     
     /*
     var provider = [Provider.Person]()
