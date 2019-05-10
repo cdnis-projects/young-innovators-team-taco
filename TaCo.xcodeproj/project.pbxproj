@@ -12,6 +12,8 @@
 		1B6913D722857C5A00AD1DEE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B6913D622857C5A00AD1DEE /* GoogleService-Info.plist */; };
 		1B6913D9228598DD00AD1DEE /* IntitalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6913D8228598DD00AD1DEE /* IntitalViewController.swift */; };
 		1B6913DB2285998300AD1DEE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6913DA2285998300AD1DEE /* SignUpViewController.swift */; };
+		1B6913DD2285B44E00AD1DEE /* InterestsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6913DC2285B44E00AD1DEE /* InterestsCollectionViewController.swift */; };
+		1B6913DF2285B69700AD1DEE /* InterestsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6913DE2285B69700AD1DEE /* InterestsCollectionViewCell.swift */; };
 		1B9C363922853165006322CA /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9C363822853165006322CA /* AuthenticationViewController.swift */; };
 		1BBABAE2218C2BA900597E12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBABAE1218C2BA900597E12 /* AppDelegate.swift */; };
 		1BBABAE4218C2BA900597E12 /* InterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBABAE3218C2BA900597E12 /* InterestsViewController.swift */; };
@@ -29,6 +31,8 @@
 		1B6913D622857C5A00AD1DEE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1B6913D8228598DD00AD1DEE /* IntitalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntitalViewController.swift; sourceTree = "<group>"; };
 		1B6913DA2285998300AD1DEE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1B6913DC2285B44E00AD1DEE /* InterestsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestsCollectionViewController.swift; sourceTree = "<group>"; };
+		1B6913DE2285B69700AD1DEE /* InterestsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestsCollectionViewCell.swift; sourceTree = "<group>"; };
 		1B9C363822853165006322CA /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		1BBABADE218C2BA900597E12 /* TaCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BBABAE1218C2BA900597E12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B6913E02285BDD000AD1DEE /* Archives */ = {
+			isa = PBXGroup;
+			children = (
+				1BBABAE3218C2BA900597E12 /* InterestsViewController.swift */,
+			);
+			name = Archives;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		1BBABAD5218C2BA900597E12 = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +90,13 @@
 		1BBABAE0218C2BA900597E12 /* TaCo */ = {
 			isa = PBXGroup;
 			children = (
+				1B6913E02285BDD000AD1DEE /* Archives */,
 				1BBABAE1218C2BA900597E12 /* AppDelegate.swift */,
 				12A35D01218C7DBF005CFE2C /* Provider.swift */,
-				1BBABAE3218C2BA900597E12 /* InterestsViewController.swift */,
 				1BBABAF5218C31F600597E12 /* ProviderListingViewController.swift */,
 				1BBABAE7218C2BA900597E12 /* Main.storyboard */,
+				1B6913DE2285B69700AD1DEE /* InterestsCollectionViewCell.swift */,
+				1B6913DC2285B44E00AD1DEE /* InterestsCollectionViewController.swift */,
 				1B6913DA2285998300AD1DEE /* SignUpViewController.swift */,
 				1B6913D8228598DD00AD1DEE /* IntitalViewController.swift */,
 				1B9C363822853165006322CA /* AuthenticationViewController.swift */,
@@ -241,6 +256,8 @@
 				1BBABAE4218C2BA900597E12 /* InterestsViewController.swift in Sources */,
 				1B6913D9228598DD00AD1DEE /* IntitalViewController.swift in Sources */,
 				1BBABAF8218C320300597E12 /* ProfileViewController.swift in Sources */,
+				1B6913DD2285B44E00AD1DEE /* InterestsCollectionViewController.swift in Sources */,
+				1B6913DF2285B69700AD1DEE /* InterestsCollectionViewCell.swift in Sources */,
 				1B9C363922853165006322CA /* AuthenticationViewController.swift in Sources */,
 				12A35D02218C7DBF005CFE2C /* Provider.swift in Sources */,
 				1B6913DB2285998300AD1DEE /* SignUpViewController.swift in Sources */,
