@@ -16,7 +16,7 @@ class IntitalViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
+    // Auto-login user upon view appearing.
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         if let user = Auth.auth().currentUser {
@@ -24,14 +24,5 @@ class IntitalViewController: UIViewController {
         }
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

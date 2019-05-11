@@ -27,8 +27,18 @@ class AuthenticationViewController: UIViewController {
             alertFields.addAction(actionOK)
             self.present(alertFields, animated: true)
         } else {
-            Auth.auth().signIn(withEmail: email, password: password)
-            self.performSegue(withIdentifier: "LoginToHome", sender: self)
+            Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
+                if let error = error {
+                    print("Failed to sign in user. Error: ", error.localizedDescription)
+                    let alert = UIAlertController(title: "There was a problem", message: "Error: " + error.localizedDescription, preferredStyle: .alert)
+                    let actionOK = UIAlertAction(title: "OK", style: .default, handler: nil)
+                    alert.addAction(actionOK)
+                    self.present(alert, animated: true)
+                    return
+                }
+                print("Successfully logged in.")
+                self.performSegue(withIdentifier: "LoginToHome", sender: self)
+            }
 //            let segueTo = InterestsViewController()
 //            self.present(segueTo, animated: true, completion: nil)
         }

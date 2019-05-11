@@ -9,6 +9,6 @@ target 'TaCo' do
 	pod 'Firebase/Core'
   pod 'Firebase/Analytics'
 	pod 'Firebase/Auth'
-  # pod 'Firebase/Database'
-  # pod 'Firebase/Storage'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
 end

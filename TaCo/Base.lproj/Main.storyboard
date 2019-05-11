@@ -67,7 +67,7 @@
                     <connections>
                         <outlet property="textFieldEmail" destination="M6H-3N-coK" id="d6M-e9-qhE"/>
                         <outlet property="textFieldPassword" destination="fG1-yZ-o3r" id="iP8-dj-74D"/>
-                        <segue destination="ti7-Jw-zLG" kind="show" identifier="LogintoHome" id="Ijc-Ly-7s5"/>
+                        <segue destination="ti7-Jw-zLG" kind="show" identifier="LoginToHome" id="Ijc-Ly-7s5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pLA-iw-hA0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -112,7 +112,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LsW-AW-mzL">
-                                                    <rect key="frame" x="20" y="217" width="310" height="21"/>
+                                                    <rect key="frame" x="20" y="197" width="310" height="71"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -133,6 +133,7 @@
                                             <outlet property="subjectDescription" destination="LsW-AW-mzL" id="zJx-sq-kwz"/>
                                             <outlet property="subjectImage" destination="RyF-ZZ-G5f" id="yUg-Ua-gMz"/>
                                             <outlet property="subjectName" destination="65d-lX-rhI" id="yS1-eA-ldi"/>
+                                            <segue destination="D8S-1z-UGw" kind="show" id="Vdk-Y3-ST7"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -198,7 +199,7 @@
                         <viewLayoutGuide key="safeArea" id="mye-Zl-uKx"/>
                     </view>
                     <connections>
-                        <segue destination="ti7-Jw-zLG" kind="show" identifier="LaunchToMenu" id="Vla-Bd-dtT"/>
+                        <segue destination="ti7-Jw-zLG" kind="show" identifier="LaunchToMenu" animates="NO" id="Vla-Bd-dtT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1mb-1m-TSw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -551,7 +552,7 @@
         <image name="alison" width="1024" height="870"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3Qp-E9-dgE"/>
-        <segue reference="Ijc-Ly-7s5"/>
+        <segue reference="Vdk-Y3-ST7"/>
+        <segue reference="Vla-Bd-dtT"/>
     </inferredMetricsTieBreakers>
 </document>
