@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class InterestsCollectionViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
 
@@ -32,6 +34,15 @@ class InterestsCollectionViewController: UIViewController, UICollectionViewDataS
     
     var descriptions = ["Ranging from K-12 maths in all areas.", "Covering all kinds of science, from biology to computer science.", "The perfect foreign language to learn.", "Specializing in Xcode and Swift.", "Going old school with C+", "For those who like to design posters.", "Make your own logo today!", "Got a drone, but don't know how to use it?", "Learn how to keep kids safe.", "Make 3D digital models come to life.", "Make your own webpage!"]
     
+    @IBAction func buttonSignOut(_ sender: Any) {
+        let firebaseAuth = Auth.auth()
+        do {
+            try firebaseAuth.signOut()
+            performSegue(withIdentifier: "SignOut", sender: self)
+        } catch let signOutError as NSError {
+            print ("Error signing out: %@", signOutError)
+        }
+    }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return subjects.count
     }

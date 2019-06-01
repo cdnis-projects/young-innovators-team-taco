@@ -19,9 +19,9 @@ class IntitalViewController: UIViewController {
     // Auto-login user upon view appearing.
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        if let user = Auth.auth().currentUser {
-            self.performSegue(withIdentifier: "LaunchToMenu", sender: self)
-        }
+//        if let user = Auth.auth().currentUser {
+//            self.performSegue(withIdentifier: "LaunchToMenu", sender: self)
+//        }
     }
 
 

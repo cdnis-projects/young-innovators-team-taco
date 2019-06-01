@@ -37,7 +37,7 @@ class AuthenticationViewController: UIViewController {
                     return
                 }
                 print("Successfully logged in.")
-                self.performSegue(withIdentifier: "LoginToHome", sender: self)
+                self.performSegue(withIdentifier: "LoginToProfile", sender: self)
             }
 //            let segueTo = InterestsViewController()
 //            self.present(segueTo, animated: true, completion: nil)

@@ -14,6 +14,7 @@
 		1B6913DB2285998300AD1DEE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6913DA2285998300AD1DEE /* SignUpViewController.swift */; };
 		1B6913DD2285B44E00AD1DEE /* InterestsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6913DC2285B44E00AD1DEE /* InterestsCollectionViewController.swift */; };
 		1B6913DF2285B69700AD1DEE /* InterestsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6913DE2285B69700AD1DEE /* InterestsCollectionViewCell.swift */; };
+		1B94C720229BC9A0003509F1 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94C71F229BC9A0003509F1 /* UserProfileViewController.swift */; };
 		1B9C363922853165006322CA /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9C363822853165006322CA /* AuthenticationViewController.swift */; };
 		1BBABAE2218C2BA900597E12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBABAE1218C2BA900597E12 /* AppDelegate.swift */; };
 		1BBABAE4218C2BA900597E12 /* InterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBABAE3218C2BA900597E12 /* InterestsViewController.swift */; };
@@ -33,6 +34,7 @@
 		1B6913DA2285998300AD1DEE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		1B6913DC2285B44E00AD1DEE /* InterestsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestsCollectionViewController.swift; sourceTree = "<group>"; };
 		1B6913DE2285B69700AD1DEE /* InterestsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestsCollectionViewCell.swift; sourceTree = "<group>"; };
+		1B94C71F229BC9A0003509F1 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		1B9C363822853165006322CA /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		1BBABADE218C2BA900597E12 /* TaCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BBABAE1218C2BA900597E12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				1B9C363822853165006322CA /* AuthenticationViewController.swift */,
 				12A35D03218F20B5005CFE2C /* ProviderTableViewCell.swift */,
 				1BBABAF7218C320300597E12 /* ProfileViewController.swift */,
+				1B94C71F229BC9A0003509F1 /* UserProfileViewController.swift */,
 				1BBABAEA218C2BAB00597E12 /* Assets.xcassets */,
 				1B6913D622857C5A00AD1DEE /* GoogleService-Info.plist */,
 				1BBABAEC218C2BAB00597E12 /* LaunchScreen.storyboard */,
@@ -255,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BBABAE2218C2BA900597E12 /* AppDelegate.swift in Sources */,
+				1B94C720229BC9A0003509F1 /* UserProfileViewController.swift in Sources */,
 				1BBABAE4218C2BA900597E12 /* InterestsViewController.swift in Sources */,
 				1B6913D9228598DD00AD1DEE /* IntitalViewController.swift in Sources */,
 				1BBABAF8218C320300597E12 /* ProfileViewController.swift in Sources */,
